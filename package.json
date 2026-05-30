@@ -1,11 +1,10 @@
 {
-  "version": "1.0.0",
-  "name": "default-light-syntax",
-  "description": "Default light syntax theme",
+  "version": "0.9.0",
+  "name": "kanso-ink-syntax",
+  "description": "Kanso Ink syntax theme",
+  "repository": "https://github.com/dgavrilov/kanso-ink-syntax",
   "theme": "syntax",
-  "scripts": {
-    "build": "lessc styles/less/default.less ./styles/index.css"
-  },
+  "scripts": {},
   "styleSheets": [
     "index.css"
   ],

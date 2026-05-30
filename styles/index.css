@@ -1,27 +1,27 @@
 .editor {
-  /* Polar Night */
-  --base00: hsl(220 16% 22%);
-  --base01: hsl(222 16% 28%);
-  --base02: hsl(220 17% 32%);
-  --base03: hsl(220 16% 40%);
+  /* Kanso Ink */
+  --base00: #c5c9c7;
+  --base01: #22262D;
+  --base02: #c5c9c7;
+  --base03: #75797f;
 
-  /* Snow Storm */
-  --base04: hsl(219 28% 88%);
-  --base05: hsl(218 27% 92%);
-  --base06: hsl(218 27% 94%);
+  /* Surfaces */
+  --base04: #393B42;
+  --base05: #22262D;
+  --base06: #393B42;
 
-  /* Frost */
-  --base07: hsl(179 25% 65%);
-  --base08: hsl(193 43% 67%);
-  --base09: hsl(210 44% 63%);
-  --base0A: hsl(213 42% 52%);
+  /* Spare */
+  --base07: #9E9B93;
 
-  /* Aurora */
-  --base0B: hsl(354 62% 56%);
-  --base0C: hsl(14 61% 63%);
-  --base0D: hsl(40 81% 73%);
-  --base0E: hsl(92 38% 55%);
-  --base0F: hsl(311 40% 63%);
+  /* Syntax */
+  --base08: #C4B28A;
+  --base09: #8A9A7B;
+  --base0A: #8992A7;
+  --base0B: #C4746E;
+  --base0C: #8BA4B0;
+  --base0D: #DCA561;
+  --base0E: #B98D7B;
+  --base0F: #A292A3;
 
   .CodeMirror {
     /* Background color of main window */
@@ -36,7 +36,7 @@
     .CodeMirror-gutters {
       /* Gutter to the left */
       background-color: transparent;
-      border-right: 1px solid hsl(0deg 100% 0% / 10%);
+      border-right: 1px solid hsl(0deg 0% 100% / 8%);
     }
     .CodeMirror-linenumber {
       /* Line numbers in the gutter */
@@ -185,12 +185,12 @@
     }
 
     .cm-inline-code {
-      background: rgba(0, 0, 0, 0.02);
+      background: rgba(255, 255, 255, 0.05);
       color: var(--base03);
     }
 
     .gfm-codeblock-bg.CodeMirror-linebackground {
-      background: rgba(0, 0, 0, 0.01);
+      background: rgba(255, 255, 255, 0.03);
     }
 
     .cm-table-sep,
