@@ -1,14 +1,19 @@
 {
-  "version": "0.9.0",
   "name": "kanso-ink-syntax",
-  "description": "Kanso Ink syntax theme",
-  "repository": "https://github.com/dgavrilov/kanso-ink-syntax",
-  "theme": "syntax",
-  "scripts": {},
-  "styleSheets": [
-    "index.css"
+  "version": "0.9.0",
+  "description": "Kanso Ink syntax theme for Inkdrop",
+  "keywords": [
+    "inkdrop",
+    "markdown"
   ],
+  "license": "MIT",
+  "author": "Dmitry Gavrilov <dmitry@gavrilov.me>",
+  "repository": "https://github.com/dgavrilov/kanso-ink-syntax",
   "engines": {
     "inkdrop": "^5.x"
-  }
+  },
+  "theme": "syntax",
+  "styleSheets": [
+    "index.css"
+  ]
 }

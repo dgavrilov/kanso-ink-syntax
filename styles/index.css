@@ -1,27 +1,27 @@
 .editor {
   /* Kanso Ink */
   --base00: #c5c9c7;
-  --base01: #22262D;
+  --base01: #22262d;
   --base02: #c5c9c7;
   --base03: #75797f;
 
   /* Surfaces */
-  --base04: #393B42;
-  --base05: #22262D;
-  --base06: #393B42;
+  --base04: #393b42;
+  --base05: #22262d;
+  --base06: #393b42;
 
   /* Spare */
-  --base07: #9E9B93;
+  --base07: #9e9b93;
 
   /* Syntax */
-  --base08: #C4B28A;
-  --base09: #8A9A7B;
-  --base0A: #8992A7;
-  --base0B: #C4746E;
-  --base0C: #8BA4B0;
-  --base0D: #DCA561;
-  --base0E: #B98D7B;
-  --base0F: #A292A3;
+  --base08: #c4b28a;
+  --base09: #8a9a7b;
+  --base0A: #8992a7;
+  --base0B: #c4746e;
+  --base0C: #8ba4b0;
+  --base0D: #dca561;
+  --base0E: #b98d7b;
+  --base0F: #a292a3;
 
   .CodeMirror {
     /* Background color of main window */
@@ -207,10 +207,6 @@
   /* Active Line Highlight support */
   .CodeMirror-activeline-background,
   .CodeMirror-activeline-gutter {
-    background-color: color-mix(
-      in srgb,
-      var(--base06),
-      transparent 70%
-    ) !important;
+    background-color: color-mix(in srgb, var(--base06), transparent 70%) !important;
   }
 }
