@@ -26,7 +26,6 @@
   /* Extended */
   --base10: #8ea4a2;
   --base11: #b6927b;
-  --base12: #e82424;
 
   .CodeMirror {
     /* Background color of main window */
@@ -192,8 +191,8 @@
       font-style: italic;
     }
     .cm-error {
-      /* invalid */
-      color: var(--base12);
+      /* invalid / broken markup */
+      color: var(--base0B);
     }
     .cm-minus {
       /* diff deletion */
