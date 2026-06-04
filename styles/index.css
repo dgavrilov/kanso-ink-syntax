@@ -244,6 +244,10 @@
       background: rgba(255, 255, 255, 0.05);
       color: var(--base03);
     }
+    .cm-inline-code.CodeMirror-matchingbracket {
+      color: var(--base03) !important;
+      border-bottom: 1px solid var(--base03) !important;
+    }
 
     .gfm-codeblock-bg.CodeMirror-linebackground {
       background: rgba(255, 255, 255, 0.03);
