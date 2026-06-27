@@ -1,4 +1,4 @@
-.editor {
+:root {
   /* Kanso Ink */
   --base00: #c5c9c7;
   --base01: #22262d;
@@ -27,6 +27,252 @@
   --base10: #8ea4a2;
   --base11: #b6927b;
 
+  /* Inkdrop v6 Core Syntax */
+  --syntax-keyword-color: var(--base0A);
+  --syntax-string-color: var(--base09);
+  --syntax-comment-color: var(--base03);
+  --syntax-number-color: var(--base0F);
+  --syntax-variable-name-color: var(--base02);
+  --syntax-name-definition-color: var(--base0C);
+  --syntax-variable-name-function-color: var(--base0C);
+  --syntax-class-name-color: var(--base10);
+  --syntax-operator-color: var(--base11);
+  --syntax-operator-keyword-color: var(--base0A);
+  --syntax-deref-operator-color: var(--base11);
+  --syntax-arithmetic-operator-color: var(--base11);
+  --syntax-logic-operator-color: var(--base11);
+  --syntax-bitwise-operator-color: var(--base11);
+  --syntax-compare-operator-color: var(--base11);
+  --syntax-update-operator-color: var(--base11);
+  --syntax-definition-operator-color: var(--base11);
+  --syntax-control-operator-color: var(--base11);
+  --syntax-type-operator-color: var(--base02);
+  --syntax-tag-name-color: var(--base08);
+  --syntax-attribute-name-color: var(--base0A);
+  --syntax-atom-color: var(--base11);
+  --syntax-bool-color: var(--base11);
+  --syntax-meta-color: var(--base0E);
+  --syntax-property-name-color: var(--base0C);
+  --syntax-heading-color: var(--base0C);
+  --syntax-link-color: var(--base0E);
+
+  /* Inkdrop v6 Extended Syntax Tokens */
+  --syntax-name-function-color: var(--base0C);
+  --syntax-property-name-function-color: var(--base0C);
+  --syntax-macro-name-color: var(--base0C);
+  --syntax-namespace-color: var(--base10);
+  --syntax-label-name-color: var(--base0A);
+
+  --syntax-name-constant-color: var(--base0D);
+  --syntax-variable-name-constant-color: var(--base0D);
+  --syntax-property-name-constant-color: var(--base0D);
+
+  --syntax-variable-name-definition-color: var(--base0C);
+
+  --syntax-name-standard-color: var(--base0C);
+  --syntax-variable-name-standard-color: var(--base0C);
+  --syntax-property-name-standard-color: var(--base0C);
+
+  --syntax-literal-color: var(--base0F);
+  --syntax-character-color: var(--base0F);
+  --syntax-integer-color: var(--base0F);
+  --syntax-float-color: var(--base0F);
+  --syntax-null-color: var(--base0F);
+  --syntax-unit-color: var(--base0F);
+
+  --syntax-regexp-color: var(--base0D);
+  --syntax-color-color: var(--base09);
+  --syntax-url-color: var(--base0C);
+  --syntax-attribute-value-color: var(--base09);
+
+  --syntax-modifier-color: var(--base0A);
+  --syntax-definition-keyword-color: var(--base0A);
+
+  --syntax-separator-color: var(--base02);
+  --syntax-angle-bracket-color: var(--base02);
+  --syntax-square-bracket-color: var(--base02);
+  --syntax-paren-color: var(--base02);
+  --syntax-brace-color: var(--base02);
+  --syntax-bracket-color: var(--base02);
+  --syntax-punctuation-color: var(--base02);
+
+  --syntax-inserted-color: var(--base09);
+  --syntax-deleted-color: var(--base0B);
+  --syntax-changed-color: var(--base0D);
+
+  --syntax-annotation-color: var(--base0A);
+  --syntax-processing-instruction-color: var(--base03);
+  --syntax-invalid-color: var(--base0B);
+  --syntax-invalid-border-bottom: 1px dotted var(--base0B);
+
+  /* Inkdrop v6 Editor UI Variables */
+  --editor-background-color: transparent;
+  --editor-foreground-color: var(--base02);
+  --editor-caret-color: var(--base00);
+  --editor-selection-background: var(--base05);
+  --editor-focused-selection-background: var(--base04);
+
+  --editor-gutter-background-color: transparent;
+  --editor-gutter-border-right: 1px solid hsl(0deg 0% 100% / 8%);
+  --editor-gutter-color: color-mix(in srgb, var(--base03) 60%, transparent);
+
+  --editor-active-line-background-color: color-mix(in srgb, var(--base06), transparent 70%);
+  --editor-matching-bracket-outline: 1px solid var(--base08);
+  --editor-matching-bracket-background-color: var(--base04);
+
+  --editor-spelling-error-color: var(--base0B);
+  --editor-placeholder-color: color-mix(in srgb, var(--base03) 50%, transparent);
+  --editor-trailing-space-background-color: transparent;
+  --editor-highlight-space-color: #404f7d;
+
+  --editor-tooltip-background-color: var(--base01);
+  --editor-tooltip-border-color: var(--base04);
+  --editor-tooltip-autocomplete-item-selected-background-color: var(--base04);
+  --editor-tooltip-autocomplete-item-selected-color: var(--base02);
+  --editor-inline-tooltip-background-color: var(--base01);
+  --editor-inline-tooltip-outline: 1px solid var(--base04);
+
+  --editor-completion-label: var(--base03);
+  --editor-completion-matched-text-color: var(--base08);
+  --editor-completion-detail-color: var(--base03);
+
+  --editor-search-match-background-color: color-mix(in srgb, var(--base0A) 30%, transparent);
+  --editor-search-match-selected-background-color: color-mix(in srgb, var(--base0A) 60%, transparent);
+  --editor-search-match-selected-outline: 1px solid var(--base0A);
+
+  /* Inkdrop v6 Markdown Preview Codeblock Variables */
+  --md-inline-code-background-color: rgba(255, 255, 255, 0.05);
+  --md-inline-code-border-color: transparent;
+  --md-inline-code-padding: 0;
+  --md-inline-code-border-width: 0;
+  --md-codeblock-background-color: rgba(255, 255, 255, 0.03);
+  --md-codeblock-border-color: transparent;
+  --md-table-background-color: transparent;
+  --md-table-border-color: var(--base04);
+  --md-inline-mark-background-color: color-mix(in srgb, var(--base0D) 30%, transparent);
+  --md-inline-mark-underline-color: var(--base0D);
+  --md-inline-mark-text-color: var(--base02);
+  --md-list-mark-color: var(--base0A);
+}
+
+.editor {
+  /* Fade markdown formatting marks */
+  .cm-editor .md-header-mark {
+    opacity: 0.3 !important;
+  }
+  .cm-editor .md-quote-mark,
+  .cm-editor .md-emphasis-mark,
+  .cm-editor .md-strikethrough-mark,
+  .cm-editor .cm-formatting-quote,
+  .cm-editor .cm-formatting-strong,
+  .cm-editor .cm-formatting-em {
+    opacity: 0.6 !important;
+  }
+
+  /* Restore syntax colors for formatting marks */
+  .cm-editor .md-header-mark {
+    color: var(--base0C) !important;
+  }
+  .cm-editor .md-quote-mark {
+    color: var(--base0F) !important;
+  }
+  .cm-editor .md-emphasis-mark.tok-strong {
+    color: var(--base0B) !important;
+  }
+  .cm-editor .md-emphasis-mark.tok-emphasis {
+    color: var(--base0C) !important;
+  }
+  .cm-editor .md-strikethrough-mark {
+    color: var(--base02) !important;
+  }
+  .cm-editor .md-list-mark {
+    color: var(--base0A) !important;
+  }
+
+  /* Link brackets */
+  .cm-editor .md-link-mark {
+    color: var(--base07) !important;
+  }
+
+  /* Dim completed tasks */
+  .cm-editor .md-task-done-text,
+  .cm-editor .md-task-done-text * {
+    color: var(--base03) !important;
+  }
+
+  /* Hardcoded syntax overrides */
+  .cm-editor .tok-variable-name.tok-function,
+  .cm-editor .tok-variableName.tok-function,
+  .cm-editor .tok-definition.tok-function {
+    color: var(--base0C) !important;
+  }
+
+  .cm-editor .tok-property-name,
+  .cm-editor .tok-propertyName {
+    color: var(--base0C) !important;
+  }
+
+  .cm-editor .tok-operator,
+  .cm-editor .tok-operator-keyword,
+  .cm-editor .tok-operatorKeyword,
+  .cm-editor .tok-compare-operator,
+  .cm-editor .tok-compareOperator,
+  .cm-editor .tok-logic-operator,
+  .cm-editor .tok-logicOperator,
+  .cm-editor .tok-arithmetic-operator,
+  .cm-editor .tok-arithmeticOperator,
+  .cm-editor .tok-updateOperator,
+  .cm-editor .tok-update-operator,
+  .cm-editor .tok-definitionOperator,
+  .cm-editor .tok-definition-operator,
+  .cm-editor .tok-label-name,
+  .cm-editor .tok-labelName {
+    color: var(--base08) !important;
+  }
+
+  /* Custom unprintable characters styling */
+  .cm-editor .cm-newline {
+    color: var(--editor-highlight-space-color) !important;
+    opacity: 0.4 !important;
+    font-size: 0.8em !important;
+    vertical-align: middle !important;
+    position: relative !important;
+    top: -0.3em !important;
+  }
+  .cm-editor .cm-highlightSpace {
+    color: var(--editor-highlight-space-color) !important;
+    opacity: 0.4 !important;
+  }
+  .cm-editor span.cm-highlightSpace,
+  .cm-editor span.cm-highlightSpace:before,
+  .cm-editor span.cm-highlightSpace::before {
+    /* Make the space dot smaller and centered */
+    background-image: radial-gradient(
+      circle at 50% 50%,
+      var(--editor-highlight-space-color) 12%,
+      transparent 5%
+    ) !important;
+  }
+
+  /* Force URLs to be blue (base0C) as in original Kanso Ink, in case .tok-link overrides .tok-url */
+  .cm-editor .tok-url {
+    color: var(--base0C) !important;
+  }
+
+  /* Make inline code backticks the same color as the inline code text */
+  .cm-editor .md-code-mark {
+    color: var(--base03) !important;
+  }
+
+  /* Override Inkdrop's default pill styling for inline code to prevent background splitting */
+  .cm-editor .tok-monospace,
+  .cm-editor .cm-inline-code {
+    border-radius: 0 !important;
+    padding: 0 !important;
+    border: none !important;
+    margin: 0 !important;
+  }
+
   .CodeMirror {
     /* Background color of main window */
     background-color: transparent;
@@ -34,34 +280,27 @@
     --fat-cursor-color: var(--base08);
 
     .CodeMirror-scroll {
-      /* Color of otherwise un-styled text */
       color: var(--base02);
     }
     .CodeMirror-gutters {
-      /* Gutter to the left */
       background-color: transparent;
       border-right: 1px solid hsl(0deg 0% 100% / 8%);
     }
     .CodeMirror-linenumber {
-      /* Line numbers in the gutter */
       color: var(--base03);
       opacity: 0.6;
     }
     .CodeMirror-selected {
-      /* Highlighed text */
       background-color: var(--base05);
     }
     .CodeMirror-focused .CodeMirror-selected {
-      /* Highlighed text */
       background-color: var(--base04);
     }
     .CodeMirror-cursor {
-      /* The cursor */
       border-left: 1px solid var(--base00);
     }
     .CodeMirror-matchingbracket,
     .CodeMirror-matchingtag {
-      /* When you click a tag/bracket and the matching one is highlighted */
       color: var(--base02) !important;
       background: var(--base04) !important;
       border-bottom: 1px solid var(--base08) !important;
@@ -83,26 +322,21 @@
       color: var(--base09) !important;
     }
     .CodeMirror-nonmatchingbracket {
-      /* Unmatched bracket next to caret — soften CodeMirror's default bright red */
       color: var(--base0B) !important;
     }
     .CodeMirror-foldgutter-open:after {
-      /* Those little arrows in the gutter */
       color: var(--base03);
     }
     .CodeMirror-foldgutter-folded:after {
-      /* The arrows after you collapse code */
       color: var(--base03);
     }
     .CodeMirror.over-gutter,
     .CodeMirror-activeline {
       .CodeMirror-foldgutter-open:after {
-        /* Arrows when hovering on the gutter */
         color: var(--base03);
       }
     }
     .CodeMirror-foldmarker {
-      /* The [...] marking collapsed code */
       border-color: var(--base03);
       background-color: var(--base03);
       color: var(--base02);
@@ -111,44 +345,36 @@
       background: rgba(0, 0, 0, 0.05);
     }
     .CodeMirror-searching {
-      /* Ctrl + F results */
       background-color: var(--base0D);
-      /* Selected result */
       &.searching-current-match {
         background-color: var(--base0C);
       }
     }
   }
 
-  /* All 'dem swatches */
-
+  /* CodeMirror 5 Syntax Tokens */
   .CodeMirror {
     .cm-quote {
       color: var(--base0F);
       font-style: italic;
     }
     .cm-atom {
-      /* booleans, null — constant.language */
       color: var(--base11);
     }
     .cm-type,
     .cm-variable-3 {
-      /* types/classes — entity.name.class */
       color: var(--base10);
     }
     .cm-formatting-list.cm-variable-3 {
       color: var(--base0C);
     }
-
     .cm-keyword {
-      /* keyword.control */
       color: var(--base0A);
       font-weight: bold;
     }
     .cm-formatting-list.cm-variable-2 {
       color: var(--base0A);
     }
-
     .cm-url,
     .cm-string,
     .cm-string-2,
@@ -156,26 +382,21 @@
       color: var(--base09);
     }
     .cm-number {
-      /* constant.numeric */
       color: var(--base0F);
     }
     .cm-attribute {
       color: var(--base0A);
     }
     .cm-plus {
-      /* diff addition */
       color: var(--base09);
     }
     .cm-def {
-      /* entity.name.function */
       color: var(--base0C);
     }
     .cm-property {
-      /* variable.other.property */
       color: var(--base08);
     }
     .cm-variable {
-      /* plain identifiers — variable */
       color: var(--base02);
     }
     .cm-operator,
@@ -183,7 +404,6 @@
       color: var(--base0E);
     }
     .cm-bracket {
-      /* punctuation */
       color: var(--base07);
     }
     .cm-comment {
@@ -191,18 +411,15 @@
       font-style: italic;
     }
     .cm-error {
-      /* invalid / broken markup */
       color: var(--base0B);
     }
     .cm-minus {
-      /* diff deletion */
       color: var(--base0B);
     }
     .cm-formatting-header {
       opacity: 0.3;
     }
     .cm-header {
-      /* markup.heading */
       color: var(--base0C);
     }
     .cm-link {
@@ -233,7 +450,6 @@
       color: var(--base0C);
     }
 
-    /* carriage return */
     .CodeMirror-code > div > pre > span::after,
     .CodeMirror-line > span::after {
       color: var(--base00);
