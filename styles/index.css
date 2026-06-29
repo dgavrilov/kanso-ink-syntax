@@ -117,7 +117,7 @@
   --editor-gutter-color: color-mix(in srgb, var(--base03) 60%, transparent);
 
   --editor-active-line-background-color: color-mix(in srgb, var(--base06), transparent 70%);
-  --editor-matching-bracket-outline: 1px solid var(--base08);
+  --editor-matching-bracket-outline: none;
   --editor-matching-bracket-background-color: var(--base04);
 
   --editor-spelling-error-color: var(--base0B);
@@ -203,7 +203,9 @@
   /* Hardcoded syntax overrides */
   .cm-editor .tok-variable-name.tok-function,
   .cm-editor .tok-variableName.tok-function,
-  .cm-editor .tok-definition.tok-function {
+  .cm-editor .tok-definition.tok-function,
+  .cm-editor .tok-variable-name.tok-definition,
+  .cm-editor .tok-variableName.tok-definition {
     color: var(--base0C) !important;
   }
 
@@ -303,23 +305,13 @@
     .CodeMirror-matchingtag {
       color: var(--base02) !important;
       background: var(--base04) !important;
-      border-bottom: 1px solid var(--base08) !important;
-    }
-    .cm-bracket.CodeMirror-matchingbracket,
-    .cm-meta.CodeMirror-matchingbracket {
-      color: var(--base0E) !important;
-    }
-    .cm-property.CodeMirror-matchingbracket {
-      color: var(--base0C) !important;
-    }
-    .cm-strong.CodeMirror-matchingbracket {
-      color: var(--base0B) !important;
+      border-bottom: none !important;
     }
     .cm-link.CodeMirror-matchingbracket {
       color: var(--base0E) !important;
     }
-    .cm-string.CodeMirror-matchingbracket {
-      color: var(--base09) !important;
+    .cm-url.CodeMirror-matchingbracket {
+      color: var(--base0C) !important;
     }
     .CodeMirror-nonmatchingbracket {
       color: var(--base0B) !important;

@@ -40,7 +40,7 @@
   "--editor-completion-detail-text-decoration": "none",
   "--editor-completion-detail-font-style": "normal",
   "--editor-completion-detail-font-weight": "normal",
-  "--editor-matching-bracket-outline": "1px solid #c4b28a",
+  "--editor-matching-bracket-outline": "none",
   "--editor-matching-bracket-background-color": "#393b42",
   "--editor-nonmatching-bracket-outline": "1px solid hsl(215deg 14% 34%)",
   "--editor-nonmatching-bracket-background-color": "transparent",
