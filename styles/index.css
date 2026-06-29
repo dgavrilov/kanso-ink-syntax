@@ -238,22 +238,17 @@
     opacity: 0.4 !important;
     font-size: 0.8em !important;
     vertical-align: middle !important;
-    position: relative !important;
-    top: -0.3em !important;
   }
   .cm-editor .cm-highlightSpace {
-    color: var(--editor-highlight-space-color) !important;
     opacity: 0.4 !important;
-  }
-  .cm-editor span.cm-highlightSpace,
-  .cm-editor span.cm-highlightSpace:before,
-  .cm-editor span.cm-highlightSpace::before {
-    /* Make the space dot smaller and centered */
     background-image: radial-gradient(
       circle at 50% 50%,
       var(--editor-highlight-space-color) 12%,
-      transparent 5%
+      transparent 12%
     ) !important;
+    background-size: 1em 1em !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
   }
 
   /* Force URLs to be blue (base0C) as in original Kanso Ink, in case .tok-link overrides .tok-url */
