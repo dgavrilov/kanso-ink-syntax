@@ -361,9 +361,11 @@
     .cm-atom {
       color: var(--base11);
     }
-    .cm-type,
-    .cm-variable-3 {
+    .cm-type {
       color: var(--base10);
+    }
+    .cm-variable-3 {
+      color: var(--base02);
     }
     .cm-formatting-list.cm-variable-3 {
       color: var(--base0C);
@@ -375,11 +377,13 @@
     .cm-formatting-list.cm-variable-2 {
       color: var(--base0A);
     }
-    .cm-url,
     .cm-string,
     .cm-string-2,
     .cm-hr {
       color: var(--base09);
+    }
+    .cm-url {
+      color: var(--base0C);
     }
     .cm-number {
       color: var(--base0F);
