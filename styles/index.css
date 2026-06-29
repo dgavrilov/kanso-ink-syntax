@@ -385,12 +385,14 @@
       color: var(--base0C);
     }
     .cm-property {
-      color: var(--base08);
+      color: var(--base0C);
     }
     .cm-variable {
       color: var(--base02);
     }
-    .cm-operator,
+    .cm-operator {
+      color: var(--base08);
+    }
     .cm-meta {
       color: var(--base0E);
     }

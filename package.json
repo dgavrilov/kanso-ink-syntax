@@ -1,6 +1,6 @@
 {
   "name": "kanso-ink-syntax",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "theme": "syntax",
   "themeAppearance": "dark",
   "description": "Kanso Ink syntax theme for Inkdrop",
