@@ -251,6 +251,10 @@
     background-repeat: no-repeat !important;
   }
 
+  .cm-editor .cm-highlightSpace:has(.md-inline-mark) {
+    opacity: 1 !important;
+  }
+
   /* Force URLs to be blue (base0C) as in original Kanso Ink, in case .tok-link overrides .tok-url */
   .cm-editor .tok-url {
     color: var(--base0C) !important;
